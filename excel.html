@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="excel.html">excel</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <form id="excel-form" name="excelForm">
+            <fieldset>
+               <legend>Excel functions</legend>
+               <div>
+                  <label for="numbers">Enter your numbers separeted by spaces</label>
+                  <input type="text" name="number" id="numbers" checked />
+               </div>
+               <div>
+                  <label for="sum">AutoSum:</label>
+                  <input type="radio" name="EXchoice" id="sum" checked value="AutoSum" />
+               </div>
+               <div>
+                  <label for="avg">Average:</label>
+                  <input type="radio" name="EXchoice" id="avg" value="Average" />
+               </div>
+               <div>
+                  <label for="max">Max:</label>
+                  <input type="radio" name="EXchoice" id="max" value="Max" />
+               </div>
+               <div>
+                  <label for="min">Min:</label>
+                  <input type="radio" name="EXchoice" id="min" value="Min" />
+               </div>
+               <div>
+                  <button id="calc" type="button">Calculate</button>
+               </div>
+
+               <div class="Output" id="outputCalc"></div>
+            </fieldset>
+         </form>
+      </main>
+
+      <footer>
+         <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Théo Bracquemart</p>
+      </footer>
+      <script type="text/javascript" src="./js/script.js"></script>
+   </body>
+</html>
